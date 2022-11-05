@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+#top
+    {
+        background-color: rgb(0, 0, 0);
+        height: 60px;
+    }
+#mid
+    {
+        background-color: rgb(255, 255, 255);
+        height: 35px;
+    }
+#low-left
+    {
+        background-color: rgb(0, 0, 0);
+        width: 15%;
+        float:left ;
+        height: 400px;
+        overflow: hidden;
+        overflow-y: scroll;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        
+    }
+#low-mid
+    {
+        background-color: rgb(12, 134, 94);
+        width: 70%;
+        margin-left:auto ;
+        margin-right: auto;
+        height: 600px;
+        display: inline-block;
+        
+    }
+#low-right
+    {
+        background-color: brown;
+        width: 15%;
+        float: right;
+        height: 400px;
+    }
+#low-left::-webkit-scrollbar
+{
+    width: 10px;
+
+}
+#low-left::-webkit-scrollbar-track
+{
+    background: rgb(63, 63, 63);
+    border-radius: 10px;
+    margin-block: 10px;
+}
+#low-left::-webkit-scrollbar-thumb
+{
+    background: rgb(99, 99, 99);
+    border-radius: 10px;
+}
+body::-webkit-scrollbar
+{
+    width: 10px;
+
+}
+body::-webkit-scrollbar-track
+{
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-block: 10px;
+}
+body::-webkit-scrollbar-thumb
+{
+    background: rgb(0, 255, 106);
+    border-radius: 10px;
+}
+body
+{
+    background-color: #282828;
+    
+}
+#pic
+{
+    width: 90px;
+}
+
+   
